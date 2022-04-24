@@ -37,7 +37,7 @@ const NavLink = styled.a`
   transition: opacity 0.3s ease 0s;
 
   &:hover {
-    opacity: 0.5;
+    opacity: 0.1;
   }
 `;
 
@@ -120,7 +120,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
         >
           <div
             style={{
-              background: 'white',
+              background: 'transparent',
               position: 'absolute',
               borderRadius: '25px',
               height: '85%',
