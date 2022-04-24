@@ -72,7 +72,7 @@ const Home = (): JSX.Element => (
                   duration: 2.5,
                 }}
               >
-                👨‍🦼
+                📬
               </motion.span>
             </Button>
           </Link>
