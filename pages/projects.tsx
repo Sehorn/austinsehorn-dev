@@ -34,10 +34,6 @@ const ProjectTag = styled.li`
   letter-spacing: 0.03em;
 `;
 
-const ProjectButton = styled(Button)`
-  padding: 12px 30px;
-`;
-
 const Projects = ({ projects }: ProjectProps): JSX.Element => (
   <Container marginBottom="5rem">
     <Head>
