@@ -38,8 +38,8 @@ const Home = (): JSX.Element => (
       <Container maxWidth="700px" gridGap="3rem">
         <Container>
           <Text textAlign="center">
-            I&apos;m a self-taught web developer with an interest in DevOps and
-            Frontend development. Currently located in Seattle, WA.
+            Self-taught web developer with an interest in DevOps and Frontend
+            development. Currently located in Seattle, WA.
           </Text>
         </Container>
       </Container>
@@ -51,7 +51,7 @@ const Home = (): JSX.Element => (
           Get in touch
         </Title>
         <Text textAlign="center">
-          I am actively looking for job opportunities. Feel free to ask me
+          I&apos;m actively looking for job opportunities. Feel free to ask me
           anything!
         </Text>
         <Grid
