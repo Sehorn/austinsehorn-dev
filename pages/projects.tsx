@@ -12,7 +12,7 @@ interface ProjectProps {
 
 const ProjectImage = styled.img`
   width: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   border-radius: 4px;
   transition: 0.2s ease-in-out 0s;
@@ -22,11 +22,7 @@ const ProjectImage = styled.img`
   }
 `;
 
-const ProjectContainer = styled(Container)`
-  :hover > * img {
-    transform: scale(1.03);
-  }
-`;
+const ProjectContainer = styled(Container)``;
 
 const ProjectTag = styled.li`
   color: rgb(105, 105, 105);
