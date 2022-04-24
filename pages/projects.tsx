@@ -79,9 +79,6 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
                 {data.title}
               </Title>
             </Link>
-            <Link href={data.url}>
-              <ProjectButton variant="secondary">View Project</ProjectButton>
-            </Link>
           </Container>
           <Container gridGap="1rem">
             <Text
