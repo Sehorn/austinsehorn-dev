@@ -72,9 +72,8 @@ const Home = (): JSX.Element => (
                   duration: 2.5,
                 }}
               >
-                👋
-              </motion.span>{' '}
-              Send a message
+                👨‍🦼
+              </motion.span>
             </Button>
           </Link>
         </Grid>
