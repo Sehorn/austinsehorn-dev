@@ -126,7 +126,7 @@ const About = ({}: AboutProps): JSX.Element => {
         width="100%"
       >
         <Title fontSize="40px" as="h2">
-          Technologies I frequently use
+          Technologies I use frequently
         </Title>
         <Grid
           gridTemplateColumns={['repeat(3 , 1fr)', 'repeat(6 , 1fr)']}
